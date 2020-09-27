@@ -9,6 +9,7 @@ class SessionsController < ApplicationController
       # ログイン後にユーザー情報ページにリダイレクトします。
 
       log_in user
+      params[:session][:remember_me] == '1' ? remember(user) : forget(user)
       redirect_to user
     else
       flash.now[:danger] = '認証に失敗しました。'
@@ -17,7 +18,7 @@ class SessionsController < ApplicationController
     end
   end
   def destroy
-    log_out
+    log_out if logged_in?
     flash[:success] = 'ログアウトしました。'
     redirect_to root_url
   end
