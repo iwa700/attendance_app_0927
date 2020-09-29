@@ -1,24 +1,22 @@
-# README
+名前
+勤怠表２０２０年版
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+オーバービュー
+勤怠表　
 
-Things you may want to cover:
+##説明
+オーソドックなレイバーボンディングシステム。
 
-* Ruby version
+## Usage
 
-* System dependencies
+## Install
 
-* Configuration
+## Contribution
 
-* Database creation
+## Licence
 
-* Database initialization
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-* How to run the test suite
+## Author
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[tcnksm](https://github.com/tcnksm)
